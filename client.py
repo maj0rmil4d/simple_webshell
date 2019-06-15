@@ -29,7 +29,7 @@ try:
             if (r.status_code == 200):
                 print r.text[7:]
             else:
-                print("something bad happend ~!~")
+                print("something bad happend brah ~!~")
 except:
 
     print("usage :> python client.py http://127.0.0.1/server.php")
